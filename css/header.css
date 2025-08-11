@@ -4,7 +4,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  justify-content: space-between;
+  justify-content: center;
 }
 header .logo {
   font-size: 40px;
@@ -14,10 +14,11 @@ header .logo h1 {
 }
 header nav ul {
   display: flex;
-  gap: 30px;
+  gap: 15px;
+  align-items: center;
 }
 header nav ul li {
-  font-size: 30px;
+  font-size: 25px;
 }
 header nav ul li a.active{
     color: gold;
@@ -25,15 +26,14 @@ header nav ul li a.active{
 header nav ul li {
     transform: scale(1);
     cursor: pointer;
-    transition: all 2s ease;
-}
-header nav ul li:hover {
-    border-bottom: 2px solid yellow;
+    transition: all .3s ease;
+  }
+  header nav ul li:hover {
+  padding: 5px 10px;
+    border-top: 2px solid yellow;
     color: yellow;
-    background-color: red;
-    padding: 5px 10px;
-    border-radius: 10px 5px 3px 30px;
-    transform: scale(1.2);
+    border-radius: 30px 30px 10px 10px  ;
+    transform: scale(1.025);
 }
 /*SOCIAL MEDIA KISMI*/
 header .social-media {
