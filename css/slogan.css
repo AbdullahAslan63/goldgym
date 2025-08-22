@@ -1,0 +1,24 @@
+.slogan {
+  width: 30rem;
+  align-content: center;
+  margin: auto;
+  -webkit-text-stroke: black 3px;
+  font-weight: 900;
+}
+.slogan h1 {
+  font-size: 4rem;
+}
+.slogan h1:last-child {
+  text-align: right;
+}
+.slogan h1 span {
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .slogan {
+    width: 80%;
+  }
+  .slogan h1 {
+    font-size: 3rem;
+  }
+}
