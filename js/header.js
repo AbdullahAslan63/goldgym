@@ -13,8 +13,8 @@ function showAndHideTabbar() {
 function setHeaderHeight() {
   let logoHeight = logo.offsetHeight;
   let buttonHeight = menuButton.offsetHeight;
-  let headerHeight = logoHeight + buttonHeight;
-  let navHeight = tabbar.offsetHeight + 50;
+  let headerHeight = logoHeight + buttonHeight + 50;
+  let navHeight = tabbar.offsetHeight;
   if (window.innerWidth <= 768) {
     header.style.height = `${headerHeight}px`;
   } else {
