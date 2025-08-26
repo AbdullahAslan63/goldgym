@@ -9,6 +9,10 @@
 }
 .social-media ul li {
   font-size: 50px;
+  transition: transform .3s ease;
+}
+.social-media ul li:hover{
+  transform: scale(1.15);
 }
 @media screen and (max-width: 768px) {
   .social-media {
